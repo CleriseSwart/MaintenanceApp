@@ -1,0 +1,147 @@
+/* src/App.css */
+
+/* Reset some default browser styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/background.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat;; 
+  color: #ffffff; 
+  background-size: 100% 100vh;
+}
+
+/* Container to limit maximum width */
+.container {
+  max-width: 80vw; /* Set the maximum width to 80% of viewport width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding for spacing if desired */
+}
+
+/* Header styles */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: orange; 
+}
+
+/* Form styles */
+form {
+  background-color: black;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form button {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+thead th {
+  background-color: orange;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+
+/* Batch update and filter styles */
+.h2 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Buttons */
+button {
+  margin-right: 10px;
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  margin-top: 3px;
+}
+
+/* Edit Input Field */
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 6px 8px;
+  width: 100%;
+  display: block;
+  margin: 6px 0;
+}
+
+/* Select Dropdown */
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 6px 0;
+  display: block;
+}
+
+/* Archive and Edit buttons */
+button {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Selected status styles here... */
+.selected-status {
+  background-color: #f2f2f2;
+}
